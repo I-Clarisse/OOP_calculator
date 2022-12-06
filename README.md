@@ -1,3 +1,4 @@
+
 # OBJECT-ORIENTED PROGRAMMING
 Object Oriented Programming is not a language or a tool.
 It’s a style of programming or programming paradigm. 
@@ -8,7 +9,7 @@ So if you really want to be a serious developer, you need to understand object-o
 
 In this session, we are going to learn _OOP_ principles and how to implement them in JavaScript.
 
-My name is [_Jeanne d’Arc NYIRAMWIZA_], I am a Backend Engineer at CoCreation Hub, and I am going to be your  instructor in this course.
+My name is [Jeanne d’Arc NYIRAMWIZA], I am a Backend Engineer at CoCreation Hub, and I am going to be your  instructor in this course.
 
 ## 4 Pillars of Object-Oriented Programming 
 
@@ -18,8 +19,6 @@ My name is [_Jeanne d’Arc NYIRAMWIZA_], I am a Backend Engineer at CoCreation 
 - Inheritance
 - Polymorphism
 ````
-
-
 
 Let’s look at each of these concepts.
 Before OOP, we had procedural programming which divides a program into a set of functions so we have data stored in a bunch of variables,and functions that operate on the data.
@@ -72,8 +71,15 @@ You simply press the addition button and you don't care what happens on the insi
 
 
 Let me show you an example of this in action:
+# Requirements:
+````
+- Visual Studio Code
+- Live Server
+````
+### Live Server Installation
+`Open VSCode and type ctrl+P, type ext install ritwickdey.liveserver.`
 
-# Object-Oriented Programming: My Calculator
+# My Calculator
 
 ## Task: Frontend 
 1. Create a folder and name it My-Calculator
@@ -231,4 +237,6 @@ function cancel(){
 val.value=val.value.substr(0,val.value.length-1);
 }
 ```
+
+
 
