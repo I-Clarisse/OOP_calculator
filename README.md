@@ -29,26 +29,72 @@ There is so much interdependency between all these functions. It becomes problem
 Object-oriented Programming came to solve this problem. In Object Programming, we combine a group of related variables and function into a unit.We call that unit an object.We refer to these variables as properties, and functions as methods.
 
  
-
 Here is an example, think of a calculator
 
-A calculator is an object with properties, such as make, model, color, type, and methods like,
-addition()
-subtraction()
-division()
-multiplication()
-clear()
-equal()
-Etc
-Now you might say, what Jeanne d’Arc, we don't have calculators in our programs😊, give us a real programming example. Ok, think of local storage objects in your browsers. Every browser has a local storage object that allows you to store data locally. This local storage object has a property like length which returns the number of objects in the storage and methods like setItem, remove item, getItem and more.
+A calculator is an object with properties, such as :
+- make 
+- model
+- color
+- type
+and methods like:
+- addition()
+- subtraction()
+- division()
+- multiplication()
+- clear()
+- equal()
 
-So in object oriented programming we group related variables and functions that operate on them into objects and this is what we call encapsulation.
+Now you might say, what Jeanne d’Arc, we don't have calculators in our programs😊, give us a real programming example. 
+
+Ok, think of local storage objects in your browsers. Every browser has a local storage object that allows you to store data locally. 
+
+This local storage object has a property like length which returns the number of objects in the storage and methods like setItem, remove item, getItem and more.
+
+So in object-oriented programming we group related variables and functions that operate on them into objects and this is what we call [encapsulation].
+[Encapsulation] reduces complexity + increase reusability
+
+[Abstraction]: Our calculator has a complex logic board on the inside and a few buttons on the outside that you interact with.
+
+You simply press the addition button and you don't care what happens on the inside. All that complexity is hidden from you. This is abstract in practise.
+
+[Inheritance]: Inheritance is a mechanism that allows you to eliminate redundant code.
+
+
+[Polymorphism] means 'many shapes' or `many forms`! Each child function implements its own version of the parent's methods.
+
 
 Let me show you an example of this in action:
 Objects are independent with specific attributes visible on the front. In contrast, certain characteristics are hidden and can only be witnessed when communicating with another object.
 
 
 # OOP_calculator
+
+# HTML part<br />
+## Create a new html file, and add the following code<br />
+```
+<div class="cont">
+<div class="calsi">
+<h1>Calculator</h1>
+<input type="text" id="inp" placeholder="Enter Value..." readonly="">
+<div class="btns">
+<button onclick="AT_add(1)">0</button>
+<button onclick="AT_add(1)">1</button>
+<button onclick="AT_add(2)">2</button>
+<button onclick="AT_add(3)">3</button>
+<button onclick="AT_add(4)">4</button>
+<button onclick="AT_add(5)">5</button>
+<button onclick="AT_add(6)">6</button>
+<button onclick="AT_add(7)">7</button>
+<button onclick="AT_add(8)">8</button>
+<button onclick="AT_add(9)">9</button>
+<button onclick="AT_add('+')">+</button>
+<button onclick="AT_add('-')">-</button>
+<button onclick="AT_add('/')">/</button>
+<button onclick="AT_add('*')">*</button>
+</div>
+<button onclick="cls()">c</button><
+</div>
+```
 
 # CSS part
 ## Create an index.css file and add the following code
@@ -137,32 +183,7 @@ display:inline-block;<br />
 }<br />
 <br />
 
-# HTML part<br />
-## Create a new html file, and add the following code<br />
-```
-<div class="cont">
-<div class="calsi">
-<h1>Calculator</h1>
-<input type="text" id="inp" placeholder="Enter Value..." readonly="">
-<div class="btns">
-<button onclick="AT_add(1)">0</button>
-<button onclick="AT_add(1)">1</button>
-<button onclick="AT_add(2)">2</button>
-<button onclick="AT_add(3)">3</button>
-<button onclick="AT_add(4)">4</button>
-<button onclick="AT_add(5)">5</button>
-<button onclick="AT_add(6)">6</button>
-<button onclick="AT_add(7)">7</button>
-<button onclick="AT_add(8)">8</button>
-<button onclick="AT_add(9)">9</button>
-<button onclick="AT_add('+')">+</button>
-<button onclick="AT_add('-')">-</button>
-<button onclick="AT_add('/')">/</button>
-<button onclick="AT_add('*')">*</button>
-</div>
-<button onclick="cls()">c</button><
-</div>
-```
+
 # JavaScript part<br />
 ## create a index.js file in the same folder with index.html and add the following code<br />
 <br />
