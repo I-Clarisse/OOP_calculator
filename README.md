@@ -41,13 +41,16 @@ A calculator is an object with properties, such as :
 - color
 - type
 ```
+
 and methods like:
+````
 - addition()
 - subtraction()
 - division()
 - multiplication()
 - clear()
 - equal()
+````
 
 Now you might say, what Jeanne d’Arc, we don't have calculators in our programs😊, give us a real programming example. 
 
