@@ -89,7 +89,7 @@ display:inline-block;<br />
 
 # HTML part<br />
 ## Create a new html file, and add the following code<br />
-<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+```
 <div class="cont"><br />
 <div class="calsi"><br />
 <h1>Calculator</h1><br />
@@ -114,8 +114,7 @@ display:inline-block;<br />
 <button onclick="cancel()">⌫</button><br />
 <button onclick="cls()">c</button><br />
 </div><br />
-</svg>
-
+```
 # JavaScript part<br />
 ## create a index.js file in the same folder with index.html and add the following code<br />
 <br />
