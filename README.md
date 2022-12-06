@@ -1,6 +1,5 @@
 # OBJECT-ORIENTED PROGRAMMING
 Object Oriented Programming is not a language or a tool.
-
 It’s a style of programming or programming paradigm. 
 There are several programming languages that support object oriented programming: Such as javascript, Python, Ruby, Java and more.
 
@@ -18,18 +17,17 @@ My name is [_Jeanne d’Arc NYIRAMWIZA_], I am a Backend Engineer at CoCreation 
 - Inheritance
 - Polymorphism
 
-* Let’s look at each of these concepts.
+Let’s look at each of these concepts.
 Before OOP, we had procedural programming which divides a program into a set of functions so we have data stored in a bunch of variables,and functions that operate on the data.
 This style of programming is very simple and straightforward.
 
 You may find yourself copying and pasting lines of code over and over. You make changes to one function, and other several functions break. That’s what we call spaghetti code.
-![Alt text](Fig.-1.1-Structure-of-procedural-oriented-programs.png?raw=true "Procedural programming")
+![Alt text](Fig.-1.1-Structure-of-procedural-oriented-programs.png?raw=true "Procedural programming")<br/>
 
 `There is so much interdependency between all these functions. It becomes problematic.`
 
 Object-oriented Programming came to solve this problem. In Object Programming, we combine a group of related variables and function into a unit.We call that unit an object.We refer to these variables as properties, and functions as methods.
 
- 
 `Here is an example, think of a calculator`
 
 A calculator is an object with properties, such as :
@@ -47,11 +45,11 @@ and methods like:
 
 Now you might say, what Jeanne d’Arc, we don't have calculators in our programs😊, give us a real programming example. 
 
-Ok, think of local storage objects in your browsers. Every browser has a local storage object that allows you to store data locally. 
+```Ok, think of local storage objects in your browsers. Every browser has a local storage object that allows you to store data locally. ```
 
-This local storage object has a property like length which returns the number of objects in the storage and methods like setItem, removeItem, getItem and more.
+```This local storage object has a property like length which returns the number of objects in the storage and methods like setItem, removeItem, getItem and more.```
 
-So in object-oriented programming we group related variables and functions that operate on them into objects and this is what we call [encapsulation].
+```So in object-oriented programming we group related variables and functions that operate on them into objects and this is what we call [encapsulation].``` 
 
 [Encapsulation] `reduces complexity + increase reusability`
 
