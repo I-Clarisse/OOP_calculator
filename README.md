@@ -12,10 +12,14 @@ My name is [_Jeanne d’Arc NYIRAMWIZA_], I am a Backend Engineer at CoCreation 
 
 ## 4 Pillars of Object-Oriented Programming 
 
+````
 - Encapsulation
 - Abstraction
 - Inheritance
 - Polymorphism
+````
+
+
 
 Let’s look at each of these concepts.
 Before OOP, we had procedural programming which divides a program into a set of functions so we have data stored in a bunch of variables,and functions that operate on the data.
@@ -31,10 +35,12 @@ Object-oriented Programming came to solve this problem. In Object Programming, w
 `Here is an example, think of a calculator`
 
 A calculator is an object with properties, such as :
+```
 - make 
 - model
 - color
 - type
+```
 and methods like:
 - addition()
 - subtraction()
