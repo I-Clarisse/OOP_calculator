@@ -1,3 +1,16 @@
+# OBJECT-ORIENTED PROGRAMMING
+Object Oriented Programming is not a language or a tool.
+
+It’s a style of programming or programming paradigm. 
+There are several programming languages that support object oriented programming: Such as javascript, Python, Ruby, Java and more.
+
+Object-oriented programming is a very popular style of programming, and it comes up in many technical interviews.
+So if you really want to be a serious developer, you need to understand object-oriented programming.
+
+In this session, we are going to learn _OOP_ principles and how to implement them in JavaScript.
+
+My name is _Jeanne d’Arc NYIRAMWIZA_, I am a Backend Engineer at CoCreation Hub, and I am going to be your  instructor in this course.
+
 # OOP_calculator
 
 # CSS part
@@ -90,30 +103,28 @@ display:inline-block;<br />
 # HTML part<br />
 ## Create a new html file, and add the following code<br />
 ```
-<div class="cont"><br />
-<div class="calsi"><br />
-<h1>Calculator</h1><br />
-<input type="text" id="inp" placeholder="Enter Value..." readonly=""><br />
-<div class="btns"><br />
-<button onclick="AT_add(1)">0</button><br />
-<button onclick="AT_add(1)">1</button><br />
-<button onclick="AT_add(2)">2</button><br />
-<button onclick="AT_add(3)">3</button><br />
-<button onclick="AT_add(4)">4</button><br />
-<button onclick="AT_add(5)">5</button><br />
-<button onclick="AT_add(6)">6</button><br />
-<button onclick="AT_add(7)">7</button><br />
-<button onclick="AT_add(8)">8</button><br />
-<button onclick="AT_add(9)">9</button><br />
-<button onclick="AT_add('+')">+</button><br />
-<button onclick="AT_add('-')">-</button><br />
-<button onclick="AT_add('/')">/</button><br />
-<button onclick="AT_add('*')">*</button><br />
-</div><br />
-<button onclick="exe()">=</button><br />
-<button onclick="cancel()">⌫</button><br />
-<button onclick="cls()">c</button><br />
-</div><br />
+<div class="cont">
+<div class="calsi">
+<h1>Calculator</h1>
+<input type="text" id="inp" placeholder="Enter Value..." readonly="">
+<div class="btns">
+<button onclick="AT_add(1)">0</button>
+<button onclick="AT_add(1)">1</button>
+<button onclick="AT_add(2)">2</button>
+<button onclick="AT_add(3)">3</button>
+<button onclick="AT_add(4)">4</button>
+<button onclick="AT_add(5)">5</button>
+<button onclick="AT_add(6)">6</button>
+<button onclick="AT_add(7)">7</button>
+<button onclick="AT_add(8)">8</button>
+<button onclick="AT_add(9)">9</button>
+<button onclick="AT_add('+')">+</button>
+<button onclick="AT_add('-')">-</button>
+<button onclick="AT_add('/')">/</button>
+<button onclick="AT_add('*')">*</button>
+</div>
+<button onclick="cls()">c</button><
+</div>
 ```
 # JavaScript part<br />
 ## create a index.js file in the same folder with index.html and add the following code<br />
