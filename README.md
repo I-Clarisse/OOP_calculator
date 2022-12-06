@@ -9,7 +9,44 @@ So if you really want to be a serious developer, you need to understand object-o
 
 In this session, we are going to learn _OOP_ principles and how to implement them in JavaScript.
 
-My name is _Jeanne d’Arc NYIRAMWIZA_, I am a Backend Engineer at CoCreation Hub, and I am going to be your  instructor in this course.
+My name is [_Jeanne d’Arc NYIRAMWIZA_], I am a Backend Engineer at CoCreation Hub, and I am going to be your  instructor in this course.
+
+## 4 Pillars of Object-Oriented Programming 
+
+- Encapsulation
+- Abstraction
+- Inheritance
+- Polymorphism
+
+* Let’s look at each of these concepts.
+Before OOP, we had procedural programming which divides a program into a set of functions so we have data stored in a bunch of variables,and functions that operate on the data.
+This style of programming is very simple and straightforward.
+
+You may find yourself copying and pasting lines of code over and over. You make changes to one function, and other several functions break. That’s what we call spaghetti code.
+![Alt text](Fig.-1.1-Structure-of-procedural-oriented-programs.png?raw=true "Procedural programming")
+There is so much interdependency between all these functions. It becomes problematic.
+
+Object-oriented Programming came to solve this problem. In Object Programming, we combine a group of related variables and function into a unit.We call that unit an object.We refer to these variables as properties, and functions as methods.
+
+ 
+
+Here is an example, think of a calculator
+
+A calculator is an object with properties, such as make, model, color, type, and methods like,
+addition()
+subtraction()
+division()
+multiplication()
+clear()
+equal()
+Etc
+Now you might say, what Jeanne d’Arc, we don't have calculators in our programs😊, give us a real programming example. Ok, think of local storage objects in your browsers. Every browser has a local storage object that allows you to store data locally. This local storage object has a property like length which returns the number of objects in the storage and methods like setItem, remove item, getItem and more.
+
+So in object oriented programming we group related variables and functions that operate on them into objects and this is what we call encapsulation.
+
+Let me show you an example of this in action:
+Objects are independent with specific attributes visible on the front. In contrast, certain characteristics are hidden and can only be witnessed when communicating with another object.
+
 
 # OOP_calculator
 
