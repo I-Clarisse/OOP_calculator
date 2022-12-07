@@ -81,7 +81,31 @@ Let me show you an example of this in action:
 
 # My Calculator
 
-## Task: Frontend 
+## Task 1: Frontend 
+
+Add the following code in your [index.js]
+
+````
+var val=document.getElementById("inp");
+
+function AT_add(v){
+val.value+=v;
+}
+
+function cls(){
+val.value="";
+}
+function exe(){
+val.value=eval(val.value);
+}
+
+function cancel(){
+val.value=val.value.substr(0,val.value.length-1);
+}
+````
+
+
+## Task 2: Frontend 
 1. Create a folder and name it My-Calculator
 2. Inside your `My-Calculator`folder, create a new [index.html] file.
 3. Inside your `My-Calculator`folder, create a new [index.css] file.
@@ -129,7 +153,9 @@ Let me show you an example of this in action:
 </html>
 ```
 
-7. Your css [index.css] file should look like this: 
+
+## Task 3: Frontend STYLING 
+Your css [index.css] file should look like this: 
 ```
 html,body{
 padding:0;
@@ -217,26 +243,6 @@ display:inline-block;
 ```
 
 
-8. Add the following code in your [index.js]
-
-````
-var val=document.getElementById("inp");
-
-function AT_add(v){
-val.value+=v;
-}
-
-function cls(){
-val.value="";
-}
-function exe(){
-val.value=eval(val.value);
-}
-
-function cancel(){
-val.value=val.value.substr(0,val.value.length-1);
-}
-```
 
 
 
